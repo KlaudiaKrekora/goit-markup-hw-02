@@ -13,211 +13,230 @@
             rel="stylesheet"
         />
         <!--End font styles links-->
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <header class="menu">
-            <a href="#" class="logo"
+            <a href="index.html" class="logo"
                 ><span class="logo-accent">Web</span>Studio</a
             >
 
             <nav>
-                <ul class="nav-list">
-                    <li><a href="#agency" class="nav-links">Agencja</a></li>
+                <ul class="navigation list">
                     <li>
-                        <a href="#portfolio" class="nav-links">Portfolio</a>
+                        <a href="index.html#agency" class="navigation-links"
+                            >Agencja</a
+                        >
                     </li>
                     <li>
-                        <a href="#contacts" class="nav-links">Kontakt</a>
+                        <a href="#portfolio" class="navigation-links"
+                            >Portfolio</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#contacts" class="navigation-links">Kontakt</a>
                     </li>
                 </ul>
             </nav>
 
-            <div class="menu-contacts">
-                <a href="mailto:info@devstudio.com" class="menu-contacts-links"
+            <div class="contacts">
+                <a href="mailto:info@devstudio.com" class="contacts-links"
                     >info@devstudio.com</a
                 >
-                <a href="tel:+48111111111" class="menu-contacts-links"
+                <a href="tel:+48111111111" class="contacts-links"
                     >+48 111 111 111</a
                 >
             </div>
         </header>
         <main>
-            <button type="button" class="portfolio-button">Wszystkie</button>
-            <button type="button" class="portfolio-button">Strony</button>
-            <button type="button" class="portfolio-button">Aplikacje</button>
-            <button type="button" class="portfolio-button">Dizajn</button>
-            <button type="button" class="portfolio-button">Marketing</button>
-            <ul class="portfolio-gallery">
+            <ul class="filter">
+                <li>
+                    <button type="button" class="filter-button">
+                        Wszystkie
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="filter-button">Strony</button>
+                </li>
+                <li>
+                    <button type="button" class="filter-button">
+                        Aplikacje
+                    </button>
+                </li>
+                <li>
+                    <button type="button" class="filter-button">Dizajn</button>
+                </li>
+                <li>
+                    <button type="button" class="filter-button">
+                        Marketing
+                    </button>
+                </li>
+            </ul>
+            <ul class="gallery list">
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port1.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
-                                Technocrack
-                            </h3>
-                            <p class="portfolio-gallery-item-descrip">
-                                Strona internetowa
-                            </p>
+                            <h3 class="gallery-header">Technocrack</h3>
+                            <p class="gallery-type">Strona internetowa</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port2.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
+                            <h3 class="gallery-header">
                                 Grafika New Orlean vs Golden Star
                             </h3>
-                            <p class="portfolio-gallery-item-descrip">Dizajn</p>
+                            <p class="gallery-type">Dizajn</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port3.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
-                                Restauracja Seafood
-                            </h3>
-                            <p class="portfolio-gallery-item-descrip">
-                                Aplikacja
-                            </p>
+                            <h3 class="gallery-header">Restauracja Seafood</h3>
+                            <p class="gallery-type">Aplikacja</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port4.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
-                                Projekt Prime
-                            </h3>
-                            <p class="portfolio-gallery-item-descrip">
-                                Marketing
-                            </p>
+                            <h3 class="gallery-header">Projekt Prime</h3>
+                            <p class="gallery-type">Marketing</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port5.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
-                                Projekt Boxes
-                            </h3>
-                            <p class="portfolio-gallery-item-descrip">
-                                Aplikacja
-                            </p>
+                            <h3 class="gallery-header">Projekt Boxes</h3>
+                            <p class="gallery-type">Aplikacja</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port6.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
+                            <h3 class="gallery-header">
                                 Inspiration has no Borders
                             </h3>
-                            <p class="portfolio-gallery-item-descrip">
-                                Strona internetowa
-                            </p>
+                            <p class="gallery-type">Strona internetowa</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port7.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
+                            <h3 class="gallery-header">
                                 Magazyn Limited Edition
                             </h3>
-                            <p class="portfolio-gallery-item-descrip">Dizajn</p>
+                            <p class="gallery-type">Dizajn</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port8.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
-                                Projekt LAB
-                            </h3>
-                            <p class="portfolio-gallery-item-descrip">
-                                Marketing
-                            </p>
+                            <h3 class="gallery-header">Projekt LAB</h3>
+                            <p class="gallery-type">Marketing</p>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img
+                            class="gallery-image"
                             src="images/port9.jpg"
                             alt="uśmiechnięty mężczyzna w niebieskiej koszuli"
                             height="294"
                             width="370"
                         />
                         <figcaption>
-                            <h3 class="portfolio-gallery-item-title">
-                                Growing Business
-                            </h3>
-                            <p class="portfolio-gallery-item-descrip">
-                                Aplikacja
-                            </p>
+                            <h3 class="gallery-header">Growing Business</h3>
+                            <p class="gallery-type">Aplikacja</p>
                         </figcaption>
                     </figure>
                 </li>
             </ul>
         </main>
-        <footer>
-            <a href="#" class="logo">
+        <footer class="footer-box">
+            <a href="#" class="logo-alternative">
                 <span class="logo-accent">Web</span>Studio
             </a>
             <address id="contacts">
-                <ul class="footer-contacts-item">
-                    <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-                    <li class="footer-contacts">info@example.com</li>
-                    <li class="footer-contacts">+48 111 111 111</li>
+                <ul class="footer-contacts">
+                    <li class="footer-item">
+                        m. Warszawa, Aleje Jerozolimskie 21
+                    </li>
+                    <li>
+                        <a
+                            href="mailto:info@example.com"
+                            class="footer-links mail"
+                            >info@example.com</a
+                        >
+                    </li>
+                    <li>
+                        <a href="tel:+48111111111" class="footer-links"
+                            >+48 111 111 111</a
+                        >
+                    </li>
                 </ul>
             </address>
         </footer>
